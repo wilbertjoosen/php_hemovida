@@ -1,0 +1,52 @@
+version: '2'
+services:
+  applications:
+    image: tianon/true
+    container_name: applications
+    volumes:
+        - ${APPLICATION}:/var/www
+  apache:
+    image: wilbertjoosen/docker_hemovida_apache
+    container_name: apache
+    volumes_from:
+        - applications
+    links:
+        - "php"
+    volumes:
+        - ./data/apache/logs:/var/log/apache2
+        - ./data/apache/sites:/etc/apache2/sites-available
+    depends_on:
+        - php
+    ports:
+      - "80:80"
+    networks:
+      - app
+
+  php:
+    image: wilbertjoosen/docker_hemovida_php
+    container_name: php
+    volumes_from:
+      - applications
+    depends_on:
+      - workspace
+    expose:
+      - "9000"
+    ports:
+      - "9001:9001"
+    extra_hosts:
+        - "dockerhost:${DOCKER_HOST_IP}"
+    networks:
+      - app
+  workspace:
+    image: wilbertjoosen/docker_hemovida_workspace
+    container_name: workspace
+    volumes_from:
+      - applications
+    tty: true
+    ports:
+      - "4200:4200"
+    networks:
+      - app
+networks:
+    app:
+        driver: "bridge"
