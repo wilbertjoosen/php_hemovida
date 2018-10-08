@@ -27,6 +27,9 @@ services:
     container_name: php
     volumes_from:
       - applications
+    volumes:
+      - ./data/php/conf/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+      - ./data/php/log/php-errors.log:/var/log/php-errors.log
     depends_on:
       - workspace
     expose:
