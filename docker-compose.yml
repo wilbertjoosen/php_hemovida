@@ -5,6 +5,7 @@ services:
     container_name: applications
     volumes:
         - ${APPLICATION}:/var/www
+        - ../../include_path:/var/www/include_path
   apache:
     image: wilbertjoosen/docker_hemovida_apache
     container_name: apache
