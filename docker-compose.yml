@@ -5,7 +5,6 @@ services:
     container_name: applications
     volumes:
         - ${APPLICATION}:/var/www
-        - ../../include_path:/var/www/include_path
   apache:
     image: wilbertjoosen/docker_hemovida_apache
     container_name: apache
@@ -24,13 +23,13 @@ services:
       - app
 
   php:
-    image: wilbertjoosen/docker_hemovida_php
+    image: wilbertjoosen/docker_hemovida_php:latest
     container_name: php
     volumes_from:
       - applications
     volumes:
-      - ./data/php/conf/custom.ini:/usr/local/etc/php/conf.d/custom.ini
-      - ./data/php/log/php-errors.log:/var/log/php-errors.log
+      - ./data/php/conf/:/usr/local/etc/php/conf.d/
+      - ./data/php/log/:/var/log/
     depends_on:
       - workspace
     expose:
@@ -41,9 +40,6 @@ services:
         - "dockerhost:${DOCKER_HOST_IP}"
     networks:
       - app
-    environment:
-      - HTTP_PROXY=proxy.saude.gov
-      - HTTPS_PROXY=proxy.saude.gov
   workspace:
     image: wilbertjoosen/docker_hemovida_workspace
     container_name: workspace
