@@ -14,7 +14,7 @@ services:
         - "php"
     volumes:
         - ./data/apache/logs:/var/log/apache2
-        - ./data/apache/sites:/etc/apache2/sites-enabled
+        - ./data/apache/sites:/etc/apache2/sites-available
     depends_on:
         - php
     ports:
