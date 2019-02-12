@@ -30,6 +30,7 @@ services:
     volumes:
       - ./data/php/conf/:/usr/local/etc/php/conf.d/
       - ./data/php/log/:/var/log/
+      - ./data/php/include_path:/var/www/include_path
     depends_on:
       - workspace
     expose:
