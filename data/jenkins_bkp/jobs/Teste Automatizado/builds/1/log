@@ -1,6 +1,0 @@
-Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Building in workspace /var/jenkins_home/workspace/Teste Automatizado
-ERROR: The suiteFile is not a file or an url ! Check your build configuration.
-Build step 'SeleniumHQ htmlSuite Run' changed build result to FAILURE
-Build step 'SeleniumHQ htmlSuite Run' marked build as failure
-Finished: FAILURE

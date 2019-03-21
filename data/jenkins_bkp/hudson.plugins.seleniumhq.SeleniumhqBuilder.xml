@@ -1,4 +1,0 @@
-<?xml version='1.1' encoding='UTF-8'?>
-<hudson.plugins.seleniumhq.SeleniumhqBuilder_-DescriptorImpl plugin="seleniumhq@0.4">
-  <seleniumRunner>/var/jenkins_home/selenium-server-standalone-3.141.59.jar</seleniumRunner>
-</hudson.plugins.seleniumhq.SeleniumhqBuilder_-DescriptorImpl>

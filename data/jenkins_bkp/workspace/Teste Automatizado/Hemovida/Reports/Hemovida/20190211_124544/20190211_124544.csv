@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Hemovida,Chrome 72.0.3626.96,,2019-02-11 12:45:45,2019-02-11 12:45:50,4.735s,ERROR
-,,,,,,
-Test Cases/Login,Chrome 72.0.3626.96,,2019-02-11 12:45:46,2019-02-11 12:45:50,4.445s,ERROR
-"openBrowser(""http://hemovida.desenvolvimento.saude.gov/"")",Chrome 72.0.3626.96,,2019-02-11 12:45:46,2019-02-11 12:45:50,3.892s,PASSED
-driver = getWebDriver(),Chrome 72.0.3626.96,,2019-02-11 12:45:50,2019-02-11 12:45:50,0.021s,PASSED
-"baseUrl = ""http://hemovida.desenvolvimento.saude.gov/""",Chrome 72.0.3626.96,,2019-02-11 12:45:50,2019-02-11 12:45:50,0.000s,PASSED
-"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 72.0.3626.96,,2019-02-11 12:45:50,2019-02-11 12:45:50,0.057s,PASSED
-"selenium.click(""//a[4]/img"")",Chrome 72.0.3626.96,,2019-02-11 12:45:50,2019-02-11 12:45:50,0.057s,ERROR

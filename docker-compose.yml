@@ -31,7 +31,7 @@ services:
       - '8080:8080'
       - '8443:8443'
     volumes:
-      - ./data/jenkins_2:/var/jenkins_home
+      - ./data/jenkins:/var/jenkins_home
     networks:
       - app  
     extra_hosts:

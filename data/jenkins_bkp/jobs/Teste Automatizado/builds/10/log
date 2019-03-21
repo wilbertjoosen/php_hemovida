@@ -1,8 +1,0 @@
-Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Building in workspace /var/jenkins_home/workspace/Teste Automatizado
- java -jar /var/jenkins_home/selenium-server-standalone-3.141.59 -Dwebdriver.chrome.driver=/var/jenkins_home/chromedriver -htmlSuite *googlechrome http://hemovida.local.saude.gov.br /var/jenkins_home/workspace/Teste Automatizado/suite.html /var/jenkins_home/workspace/Teste Automatizado/result/results.html
-[Teste Automatizado] $ java -jar /var/jenkins_home/selenium-server-standalone-3.141.59 -Dwebdriver.chrome.driver=/var/jenkins_home/chromedriver -htmlSuite *googlechrome http://hemovida.local.saude.gov.br "/var/jenkins_home/workspace/Teste Automatizado/suite.html" "/var/jenkins_home/workspace/Teste Automatizado/result/results.html"
-Error: Unable to access jarfile /var/jenkins_home/selenium-server-standalone-3.141.59
-Publishing Selenium report...
-ERROR: Step ‘Publish Selenium Html Report’ failed: Missing directory result/*.html
-Finished: FAILURE
