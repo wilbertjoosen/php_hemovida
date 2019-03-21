@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Hemovida,,,2019-02-08 13:01:31,2019-02-08 13:01:32,0.791s,ERROR
+,,,,,,
+Test Cases/Login,,,2019-02-08 13:01:31,2019-02-08 13:01:31,0.577s,ERROR
+"openBrowser(""http://hemovida.desenvolvimento.saude.gov/"")",,,2019-02-08 13:01:31,2019-02-08 13:01:31,0.188s,ERROR

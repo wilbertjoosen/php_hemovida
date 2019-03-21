@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebApp,Firefox 65.0,,2019-03-12 21:45:40,2019-03-12 21:50:28,4m - 47.562s,PASSED
+,,,,,,
+Test Cases/WebApp/Create a new issue - call test cases,Firefox 65.0,,2019-03-12 21:45:41,2019-03-12 21:46:37,56.608s,PASSED
+"callTestCase(findTestCase(""WebApp/Login""), [:], STOP_ON_FAILURE)",Firefox 65.0,,2019-03-12 21:45:41,2019-03-12 21:46:01,20.322s,PASSED
+"callTestCase(findTestCase(""WebApp/Create a new issue after login""), [""issue_sum"":""This is my issue"", ""issue_desc"":""It needs to be fixed asap""], STOP_ON_FAILURE)",Firefox 65.0,,2019-03-12 21:46:01,2019-03-12 21:46:37,36.034s,PASSED
+,,,,,,
+Test Cases/WebApp/Create a new issue - parameterize,Firefox 65.0,"Summary: This is the 1st issue
+Description: Should be handled asap",2019-03-12 21:46:37,2019-03-12 21:48:36,1m - 58.484s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-12 21:46:37,2019-03-12 21:46:40,2.101s,PASSED
+"navigateToUrl(""https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"")",Firefox 65.0,,2019-03-12 21:46:40,2019-03-12 21:46:42,2.309s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Firefox 65.0,,2019-03-12 21:46:42,2019-03-12 21:46:42,0.126s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue""))",Firefox 65.0,,2019-03-12 21:46:42,2019-03-12 21:46:42,0.314s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Firefox 65.0,,2019-03-12 21:46:42,2019-03-12 21:46:45,2.618s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9""))",Firefox 65.0,,2019-03-12 21:46:45,2019-03-12 21:46:45,0.253s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd""), encrypted_password)",Firefox 65.0,,2019-03-12 21:46:45,2019-03-12 21:46:45,0.045s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9""))",Firefox 65.0,,2019-03-12 21:46:45,2019-03-12 21:46:47,1.337s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9""))",Firefox 65.0,,2019-03-12 21:46:47,2019-03-12 21:46:50,3.609s,PASSED
+"scrollToElement(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), 0)",Firefox 65.0,,2019-03-12 21:46:50,2019-03-12 21:46:56,5.691s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), homepage_title)",Firefox 65.0,,2019-03-12 21:46:56,2019-03-12 21:46:57,1.418s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem""))",Firefox 65.0,,2019-03-12 21:46:57,2019-03-12 21:46:58,1.151s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary""), issue_sum)",Firefox 65.0,,2019-03-12 21:46:58,2019-03-12 21:47:00,1.772s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description""), issue_desc)",Firefox 65.0,,2019-03-12 21:47:00,2019-03-12 21:47:00,0.120s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit""))",Firefox 65.0,,2019-03-12 21:47:00,2019-03-12 21:47:01,0.295s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue""))",Firefox 65.0,,2019-03-12 21:47:01,2019-03-12 21:47:10,9.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue""), issue_sum)",Firefox 65.0,,2019-03-12 21:47:10,2019-03-12 21:47:10,0.098s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap""), issue_desc)",Firefox 65.0,,2019-03-12 21:47:10,2019-03-12 21:47:10,0.055s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-12 21:47:10,2019-03-12 21:48:36,1m - 25.763s,PASSED
+,,,,,,
+Test Cases/WebApp/Create a new issue - recording,Firefox 65.0,"Summary: This is the 1st issue
+Description: Should be handled asap",2019-03-12 21:48:36,2019-03-12 21:49:13,37.674s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-12 21:48:36,2019-03-12 21:48:38,2.297s,PASSED
+"navigateToUrl(""https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"")",Firefox 65.0,,2019-03-12 21:48:38,2019-03-12 21:48:41,2.959s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), ""demo@katalon.com"")",Firefox 65.0,,2019-03-12 21:48:41,2019-03-12 21:48:41,0.118s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue""))",Firefox 65.0,,2019-03-12 21:48:41,2019-03-12 21:48:42,0.285s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), ""demo@katalon.com"")",Firefox 65.0,,2019-03-12 21:48:42,2019-03-12 21:48:44,2.621s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9""))",Firefox 65.0,,2019-03-12 21:48:44,2019-03-12 21:48:45,0.243s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd""), ""KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"")",Firefox 65.0,,2019-03-12 21:48:45,2019-03-12 21:48:45,0.052s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9""))",Firefox 65.0,,2019-03-12 21:48:45,2019-03-12 21:48:46,1.383s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9""))",Firefox 65.0,,2019-03-12 21:48:46,2019-03-12 21:48:49,3.454s,PASSED
+"scrollToElement(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), 0)",Firefox 65.0,,2019-03-12 21:48:49,2019-03-12 21:48:54,4.897s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), ""System dashboard"")",Firefox 65.0,,2019-03-12 21:48:54,2019-03-12 21:48:55,0.512s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem""))",Firefox 65.0,,2019-03-12 21:48:55,2019-03-12 21:48:58,3.467s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary""), ""This is my issue"")",Firefox 65.0,,2019-03-12 21:48:58,2019-03-12 21:49:00,1.812s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description""), ""It needs to be fixed asap"")",Firefox 65.0,,2019-03-12 21:49:00,2019-03-12 21:49:00,0.098s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit""))",Firefox 65.0,,2019-03-12 21:49:00,2019-03-12 21:49:01,0.307s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue""))",Firefox 65.0,,2019-03-12 21:49:01,2019-03-12 21:49:13,12.263s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue""), ""This is my issue"")",Firefox 65.0,,2019-03-12 21:49:13,2019-03-12 21:49:13,0.043s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap""), ""It needs to be fixed asap"")",Firefox 65.0,,2019-03-12 21:49:13,2019-03-12 21:49:13,0.028s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-12 21:49:13,2019-03-12 21:49:13,0.596s,PASSED
+,,,,,,
+Test Cases/WebApp/PAR-1,Firefox 65.0,"Summary: This is the 1st issue
+Description: Should be handled asap",2019-03-12 21:49:13,2019-03-12 21:49:51,37.350s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-12 21:49:14,2019-03-12 21:49:16,2.434s,PASSED
+"navigateToUrl(""https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"")",Firefox 65.0,,2019-03-12 21:49:16,2019-03-12 21:49:21,4.734s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), ""demo@katalon.com"")",Firefox 65.0,,2019-03-12 21:49:21,2019-03-12 21:49:21,0.180s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue""))",Firefox 65.0,,2019-03-12 21:49:21,2019-03-12 21:49:24,2.730s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), ""demo@katalon.com"")",Firefox 65.0,,2019-03-12 21:49:24,2019-03-12 21:49:24,0.173s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9""))",Firefox 65.0,,2019-03-12 21:49:24,2019-03-12 21:49:24,0.316s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd""), ""KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"")",Firefox 65.0,,2019-03-12 21:49:24,2019-03-12 21:49:24,0.053s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9""))",Firefox 65.0,,2019-03-12 21:49:24,2019-03-12 21:49:25,1.286s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9""))",Firefox 65.0,,2019-03-12 21:49:25,2019-03-12 21:49:29,3.050s,PASSED
+"scrollToElement(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), 0)",Firefox 65.0,,2019-03-12 21:49:29,2019-03-12 21:49:34,5.066s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), ""System dashboard"")",Firefox 65.0,,2019-03-12 21:49:34,2019-03-12 21:49:34,0.235s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem""))",Firefox 65.0,,2019-03-12 21:49:34,2019-03-12 21:49:38,4.232s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary""), ""This is my issue"")",Firefox 65.0,,2019-03-12 21:49:38,2019-03-12 21:49:40,1.897s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description""), ""It needs to be fixed asap"")",Firefox 65.0,,2019-03-12 21:49:40,2019-03-12 21:49:40,0.122s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit""))",Firefox 65.0,,2019-03-12 21:49:40,2019-03-12 21:49:40,0.301s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue""))",Firefox 65.0,,2019-03-12 21:49:40,2019-03-12 21:49:50,9.765s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue""), ""This is my issue"")",Firefox 65.0,,2019-03-12 21:49:50,2019-03-12 21:49:50,0.036s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap""), ""It needs to be fixed asap"")",Firefox 65.0,,2019-03-12 21:49:50,2019-03-12 21:49:50,0.021s,PASSED
+closeBrowser(),Firefox 65.0,,2019-03-12 21:49:50,2019-03-12 21:49:51,0.600s,PASSED
+,,,,,,
+Test Cases/WebApp/PAR-2,Firefox 65.0,"Summary: Login
+Description: Scenario: Logging in with valid credentials
+ Given I am at the Account/Login page
+  When I fill the account email textbox with value 'myname@mymail.com'
+   And I fill the password textbox with value 'mypassword'
+   And I click the login button
+  Then I should be at the home page",2019-03-12 21:49:51,2019-03-12 21:50:28,37.170s,PASSED
+"callTestCase(findTestCase(""WebApp/Login""), [:], STOP_ON_FAILURE)",Firefox 65.0,,2019-03-12 21:49:51,2019-03-12 21:50:10,19.171s,PASSED
+"callTestCase(findTestCase(""WebApp/Create a new issue after login""), [""issue_sum"":""This is my issue"", ""issue_desc"":""It needs to be fixed asap""], STOP_ON_FAILURE)",Firefox 65.0,,2019-03-12 21:50:10,2019-03-12 21:50:28,17.887s,PASSED

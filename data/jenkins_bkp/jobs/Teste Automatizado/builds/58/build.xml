@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.xvfb.XvfbEnvironment plugin="xvfb@1.1.3">
+      <frameBufferDir>/var/jenkins_home/xvfb-58-..fbdir5650631564037329721</frameBufferDir>
+      <displayName>1</displayName>
+      <shutdownWithBuild>false</shutdownWithBuild>
+      <cookie>a56474bd-f996-4190-8134-945982d36a60</cookie>
+    </org.jenkinsci.plugins.xvfb.XvfbEnvironment>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.26.1">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>1</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>1</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+  </actions>
+  <queueId>53</queueId>
+  <timestamp>1549667388454</timestamp>
+  <startTime>1549667388604</startTime>
+  <result>FAILURE</result>
+  <duration>33132</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/Teste Automatizado</workspace>
+  <hudsonVersion>2.163</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

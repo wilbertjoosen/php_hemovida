@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebApp" time="215" tests="4" failures="1" errors="0">
+   <testsuite name="WebApp" tests="4" failures="1" errors="0" time="215" timestamp="2019-03-12 17:59:21" hostname="trongbui - 6rwx502.kms.com.vn" id="Test Suites/WebApp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907/execution0.log"/>
+         <property name="attachments" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907/1552388442764.png, /Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907/1552388442967.png"/>
+         <property name="hostName" value="trongbui - 6rwx502.kms.com.vn"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.37.46"/>
+         <property name="sessionId" value="b6cf5be6-8856-db4e-bab9-46f35d31ee2e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/WebApp/Create a new issue - call test cases" classname="Test Cases/WebApp/Create a new issue - call test cases" status="PASSED">
+         <system-out><![CDATA[2019-03-12 17:59:21 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue - call test cases: Test Cases/WebApp/Create a new issue - call test cases
+
+2019-03-12 17:59:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 17:59:22 - [TEST_CASE][PASSED] - Test Cases/WebApp/Login: Test Cases/WebApp/Login
+
+2019-03-12 17:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 17:59:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 17:59:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 17:59:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 17:59:28 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 17:59:33 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 17:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 17:59:33 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 17:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 17:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 17:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 17:59:37 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 17:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 17:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 17:59:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 17:59:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 17:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 17:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 17:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 17:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 17:59:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 17:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 17:59:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 17:59:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 17:59:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 17:59:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 17:59:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Create a new issue after login"), ["issue_sum":"This is my issue", "issue_desc":"It needs to be fixed asap"], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully
+
+2019-03-12 17:59:52 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue after login: Test Cases/WebApp/Create a new issue after login
+
+2019-03-12 17:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 17:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 17:59:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:00:01 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:00:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:00:02 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:00:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:00:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:00:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:00:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:00:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 18:00:17 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-12 18:00:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/Create a new issue - parameterize" classname="Test Cases/WebApp/Create a new issue - parameterize" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WebApp/Create a new issue - parameterize FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-03-12 18:00:17 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize: Test Cases/WebApp/Create a new issue - parameterize FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-12 18:00:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 18:00:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 18:00:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 18:00:20 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:00:25 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:25 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:30 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:00:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:00:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:00:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:00:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 18:00:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:00:42 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title): verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-12 18:00:42 - [MESSAGE][FAILED] - Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907/1552388442764.png]]
+
+2019-03-12 18:00:43 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_175907/1552388442967.png]]
+
+2019-03-12 18:00:43 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-03-12 18:00:17 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize: Test Cases/WebApp/Create a new issue - parameterize FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/Create a new issue - recording" classname="Test Cases/WebApp/Create a new issue - recording" status="PASSED">
+         <system-out><![CDATA[2019-03-12 18:00:43 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue - recording: Test Cases/WebApp/Create a new issue - recording
+
+2019-03-12 18:00:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 18:00:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-12 18:00:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 18:00:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 18:00:46 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:00:49 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:00:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:50 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:00:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:54 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:00:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), "KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:00:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:01:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 18:01:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:01:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:01:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), "This is my issue"): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:01:12 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), "It needs to be fixed asap"): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:01:12 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:01:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), "This is my issue"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:01:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:01:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), "It needs to be fixed asap"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:01:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:01:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 18:01:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/PAR-1" classname="Test Cases/WebApp/PAR-1" status="PASSED">
+         <system-out><![CDATA[2019-03-12 18:01:23 - [TEST_CASE][PASSED] - Test Cases/WebApp/PAR-1: Test Cases/WebApp/PAR-1
+
+2019-03-12 18:01:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 18:01:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 18:01:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 18:01:26 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:01:32 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:01:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:01:32 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:01:37 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:01:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), "KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:01:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:01:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:01:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 18:01:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:01:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:01:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:01:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), "This is my issue"): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:01:56 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), "It needs to be fixed asap"): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:01:56 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:02:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), "This is my issue"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:02:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:02:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), "It needs to be fixed asap"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:02:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:02:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 18:02:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/PAR-2" classname="Test Cases/WebApp/PAR-2" status="PASSED">
+         <system-out><![CDATA[2019-03-12 18:02:10 - [TEST_CASE][PASSED] - Test Cases/WebApp/PAR-2: Test Cases/WebApp/PAR-2
+
+2019-03-12 18:02:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 18:02:10 - [TEST_CASE][PASSED] - Test Cases/WebApp/Login: Test Cases/WebApp/Login
+
+2019-03-12 18:02:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 18:02:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 18:02:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 18:02:13 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:02:20 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 18:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:02:20 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 18:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:02:23 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 18:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 18:02:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:02:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 18:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 18:02:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 18:02:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:02:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 18:02:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 18:02:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:02:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 18:02:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 18:02:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Create a new issue after login"), ["issue_sum":"This is my issue", "issue_desc":"It needs to be fixed asap"], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully
+
+2019-03-12 18:02:35 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue after login: Test Cases/WebApp/Create a new issue after login
+
+2019-03-12 18:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 18:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:02:42 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 18:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:02:42 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 18:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 18:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 18:02:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:02:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 18:02:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:02:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 18:02:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 18:02:57 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-12 18:02:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 17:59:21 - [TEST_SUITE][FAILED] - WebApp: Test Cases/WebApp/Create a new issue - parameterize FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-03-12 17:59:21 - [TEST_SUITE][FAILED] - WebApp: Test Cases/WebApp/Create a new issue - parameterize FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize.run(Create a new issue - parameterize:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552388347036.run(TempTestSuite1552388347036.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'System dashboard' and expected text 'System dashboard 1' of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

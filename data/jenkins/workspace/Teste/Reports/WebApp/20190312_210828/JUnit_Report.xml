@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebApp" time="180" tests="5" failures="0" errors="0">
+   <testsuite name="WebApp" tests="5" failures="0" errors="0" time="180" timestamp="2019-03-12 21:13:09" hostname="trongbui - fvfwf0d6hv2h.net.fpt" id="Test Suites/WebApp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_210828"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp/20190312_210828/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trongbui - fvfwf0d6hv2h.net.fpt"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.158"/>
+         <property name="sessionId" value="da5788d4-c9c1-2c4c-a6a9-bf21e51403e0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/WebApp/Create a new issue - call test cases" classname="Test Cases/WebApp/Create a new issue - call test cases" status="PASSED">
+         <system-out><![CDATA[2019-03-12 21:13:10 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue - call test cases: Test Cases/WebApp/Create a new issue - call test cases
+
+2019-03-12 21:13:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 21:13:10 - [TEST_CASE][PASSED] - Test Cases/WebApp/Login: Test Cases/WebApp/Login
+
+2019-03-12 21:13:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 21:13:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 21:13:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 21:13:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 21:13:13 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:13:16 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:17 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:20 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:13:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:13:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:13:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:13:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:13:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 21:13:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:13:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:13:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:13:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 21:13:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Create a new issue after login"), ["issue_sum":"This is my issue", "issue_desc":"It needs to be fixed asap"], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully
+
+2019-03-12 21:13:31 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue after login: Test Cases/WebApp/Create a new issue after login
+
+2019-03-12 21:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:13:37 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:13:37 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:13:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:13:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:13:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:13:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:13:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 21:13:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-12 21:13:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/Create a new issue - parameterize" classname="Test Cases/WebApp/Create a new issue - parameterize" status="PASSED">
+         <system-out><![CDATA[2019-03-12 21:13:48 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue - parameterize: Test Cases/WebApp/Create a new issue - parameterize
+
+2019-03-12 21:13:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 21:13:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 21:13:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 21:13:51 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:13:54 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:54 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:57 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:13:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:13:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:14:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:14:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 21:14:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:14:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:14:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:14:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:14:13 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:14:14 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:14:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:14:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:14:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:14:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:14:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 21:14:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/Create a new issue - recording" classname="Test Cases/WebApp/Create a new issue - recording" status="PASSED">
+         <system-out><![CDATA[2019-03-12 21:14:26 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue - recording: Test Cases/WebApp/Create a new issue - recording
+
+2019-03-12 21:14:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 21:14:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 21:14:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 21:14:28 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:14:31 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:31 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:34 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:14:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), "KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:14:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:14:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:14:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 21:14:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:14:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:14:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:14:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), "This is my issue"): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:14:47 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), "It needs to be fixed asap"): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:14:47 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:14:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), "This is my issue"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:14:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:14:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), "It needs to be fixed asap"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:14:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:14:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 21:14:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/PAR-1" classname="Test Cases/WebApp/PAR-1" status="PASSED">
+         <system-out><![CDATA[2019-03-12 21:14:55 - [TEST_CASE][PASSED] - Test Cases/WebApp/PAR-1: Test Cases/WebApp/PAR-1
+
+2019-03-12 21:14:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 21:14:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 21:14:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 21:14:57 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:14:59 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:14:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:59 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:15:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), "demo@katalon.com"): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:02 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:15:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), "KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y"): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:15:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:15:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:15:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 21:15:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:15:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:15:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:15:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), "This is my issue"): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:15:18 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), "It needs to be fixed asap"): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:15:18 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:15:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), "This is my issue"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:15:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:15:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), "It needs to be fixed asap"): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:15:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:15:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 21:15:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/PAR-2" classname="Test Cases/WebApp/PAR-2" status="PASSED">
+         <system-out><![CDATA[2019-03-12 21:15:30 - [TEST_CASE][PASSED] - Test Cases/WebApp/PAR-2: Test Cases/WebApp/PAR-2
+
+2019-03-12 21:15:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 21:15:30 - [TEST_CASE][PASSED] - Test Cases/WebApp/Login: Test Cases/WebApp/Login
+
+2019-03-12 21:15:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 21:15:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-12 21:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 21:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:15:35 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-12 21:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:35 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-12 21:15:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:38 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-12 21:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-12 21:15:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:15:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-12 21:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-12 21:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-12 21:15:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-12 21:15:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-12 21:15:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), "System dashboard"): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:15:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-12 21:15:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Login' successfully
+
+2019-03-12 21:15:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("WebApp/Create a new issue after login"), ["issue_sum":"This is my issue", "issue_desc":"It needs to be fixed asap"], STOP_ON_FAILURE): Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully
+
+2019-03-12 21:15:55 - [TEST_CASE][PASSED] - Test Cases/WebApp/Create a new issue after login: Test Cases/WebApp/Create a new issue after login
+
+2019-03-12 21:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-12 21:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:15:57 - [MESSAGE][PASSED] - Text 'This is my issue' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-12 21:15:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:15:57 - [MESSAGE][PASSED] - Text 'It needs to be fixed asap' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-12 21:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-12 21:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-12 21:16:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-12 21:16:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' are matched.
+
+2019-03-12 21:16:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-12 21:16:10 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-12 21:16:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/WebApp/Create a new issue after login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 21:13:09 - [TEST_SUITE][PASSED] - WebApp: Test Cases/WebApp/PAR-2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

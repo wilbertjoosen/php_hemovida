@@ -1,0 +1,72 @@
+Started by user [8mha:////4FN88H8RrhTBzIF+lJAjMLBc7u8Svt/xokmPCiLj+FzmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste_Automatizado
+[Teste_Automatizado] $ /bin/sh -xe /tmp/jenkins911839557664188047.sh
++ /var/jenkins_home/tools/katalon/katalon -Djava.awt.headless=true --args -runMode=console -projectPath=/var/jenkins_home/workspace/Teste_Automatizado/Hemovida/Hemovida.prj -reportFolder=/var/jenkins_home/workspace/Teste_Automatizado/Hemovida/Reports -reportFileName=/var/jenkins_home/workspace/Teste_Automatizado/Hemovida/report -retry=0 -testSuitePath=Test Suites/Hemovida -browserType=Chrome
+Delete folder: bin
+Delete folder: Libs
+Opening project file: /var/jenkins_home/workspace/Teste_Automatizado/Hemovida/Hemovida.prj
+Request sent successfully.
+[EL Warning]: 2019-02-14 20:07:17.181--Ignoring attribute [lastRun] on class [TestSuiteEntity] as no Property was generated for it.
+Starting Groovy-Eclipse compiler resolver.  Specified compiler level: unspecified
+166 2.4.7.xx-201611170128-e46 = ACTIVE
+Parsing custom keywords...
+Generating global variables...
+Project 'Hemovida' opened
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190214_200730..........................0/1(0%)
+--------------------------------------------------------------------------------
+
+Request sent successfully.
+2019-02-14 20:07:34.108 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Hemovida
+2019-02-14 20:07:34.153 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = jenkins - 4174e0809e7c
+2019-02-14 20:07:34.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Linux 64bit
+2019-02-14 20:07:34.154 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.19.0.3
+2019-02-14 20:07:34.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 5.10.1.1
+2019-02-14 20:07:34.467 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2019-02-14 20:07:34.468 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2019-02-14 20:07:35.314 DEBUG testcase.Login                           - 1: openBrowser("")
+2019-02-14 20:07:35.850 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2019-02-14 20:07:35.870 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 seconds
+Starting ChromeDriver 2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d) on port 12753
+Only local connections are allowed.
+[1550174856.422][SEVERE]: bind() returned an error, errno=0: Cannot assign requested address (99)
+Feb 14, 2019 8:07:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+2019-02-14 20:07:37.915 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1e7166dd3db4347aff08d16530818160
+2019-02-14 20:07:37.950 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 72.0.3626.96
+2019-02-14 20:07:37.951 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Linux
+2019-02-14 20:07:37.963 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.7.1
+2019-02-14 20:07:37.965 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}
+2019-02-14 20:07:37.966 DEBUG testcase.Login                           - 2: navigateToUrl("http://10.10.20.107/")
+2019-02-14 20:07:42.670 DEBUG testcase.Login                           - 3: setText(findTestObject("Object Repository/Page_Hemovida/input__email"), "wilbert.joosen@saude.gov.br")
+2019-02-14 20:07:43.122 DEBUG testcase.Login                           - 4: setEncryptedText(findTestObject("Object Repository/Page_Hemovida/input__senha"), "8chwvGYzQjA8veVpvp9zoQ==")
+2019-02-14 20:07:43.388 DEBUG testcase.Login                           - 5: click(findTestObject("Object Repository/Page_Hemovida/input__btnAcessar"))
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190214_200730..........................0/1(0%)
+--------------------------------------------------------------------------------
+
+2019-02-14 20:07:48.346 DEBUG testcase.Login                           - 6: waitForJQueryLoad(0)
+2019-02-14 20:07:48.420 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2019-02-14 20:07:51.530 DEBUG testcase.Login                           - 7: selectOptionByLabel(findTestObject("Object Repository/Page_Hemovida/select_- Selecione -2795957 -"), "3007847 - RS - HOSPITAL MAE DE DEUS", true)
+2019-02-14 20:07:52.045 DEBUG testcase.Login                           - 8: click(findTestObject("Object Repository/Page_Hemovida/input__btnSalvar"))
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190214_200730..........................0/1(0%)
+--------------------------------------------------------------------------------
+
+2019-02-14 20:08:03.168 DEBUG testcase.Login                           - 9: waitForPageLoad(0, STOP_ON_FAILURE)
+2019-02-14 20:08:03.224 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2019-02-14 20:08:03.252 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login
+2019-02-14 20:08:03.393 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2019-02-14 20:08:03.393 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Hemovida
+2019-02-14 20:08:03.393 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Copying report to folder /var/jenkins_home/workspace/Teste_Automatizado/Hemovida/Reports...
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190214_200730........................1/1(100%)
+--------------------------------------------------------------------------------
+
+Recording test results
+Finished: SUCCESS

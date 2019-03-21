@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebApp - datadriven" time="171" tests="0" failures="2" errors="0">
+   <testsuite name="WebApp - datadriven" tests="0" failures="2" errors="0" time="171" timestamp="2019-03-13 14:02:28" hostname="trongbui - 6rwx502.kms.com.vn" id="Test Suites/WebApp - datadriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/execution0.log"/>
+         <property name="attachments" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460611898.png, /Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460612401.png, /Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460717528.png, /Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460718555.png"/>
+         <property name="hostName" value="trongbui - 6rwx502.kms.com.vn"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.37.46"/>
+         <property name="sessionId" value="dd0e981a90f7ffb6e46732530b3a516a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/WebApp/Create a new issue - parameterize - datadriven" classname="Test Cases/WebApp/Create a new issue - parameterize - datadriven" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-03-13 14:02:28 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-13 14:02:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-13 14:02:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 14:02:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 14:02:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-13 14:02:30 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-13 14:02:33 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-13 14:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:02:34 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-13 14:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-13 14:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:02:37 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-13 14:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-13 14:02:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-13 14:02:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-13 14:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-13 14:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-13 14:02:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-13 14:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-13 14:02:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-13 14:02:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 14:02:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-13 14:02:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-13 14:02:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-13 14:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-13 14:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-13 14:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'Issue: Cannot login' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-13 14:02:53 - [MESSAGE][PASSED] - Text 'Issue: Cannot login' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-13 14:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'Cannot login with a valid account' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-13 14:02:54 - [MESSAGE][PASSED] - Text 'Cannot login with a valid account' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-13 14:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-13 14:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-13 14:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-13 14:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-13 14:03:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-13 14:03:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-13 14:03:01 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-13 14:03:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-13 14:03:32 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460611898.png]]
+
+2019-03-13 14:03:32 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460612401.png]]
+
+2019-03-13 14:03:32 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-03-13 14:02:28 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApp/Create a new issue - parameterize - datadriven" classname="Test Cases/WebApp/Create a new issue - parameterize - datadriven" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-03-13 14:03:32 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-13 14:03:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-13 14:03:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-13 14:03:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 14:03:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-13 14:03:34 - [TEST_STEP][PASSED] - navigateToUrl("https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"): Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-13 14:03:37 - [MESSAGE][PASSED] - Navigate to 'https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1' successfully
+
+2019-03-13 14:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:03:37 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue")): Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-13 14:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue' is clicked on
+
+2019-03-13 14:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username"), username): Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:03:44 - [MESSAGE][PASSED] - Text 'demo@katalon.com' is set on object 'Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username'
+
+2019-03-13 14:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-13 14:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2019-03-13 14:03:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd"), encrypted_password): Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-13 14:03:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd'
+
+2019-03-13 14:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-13 14:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9' is clicked on
+
+2019-03-13 14:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9")): Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-13 14:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9' is clicked on
+
+2019-03-13 14:04:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), 0): Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-13 14:04:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 14:04:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' successfully
+
+2019-03-13 14:04:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard"), homepage_title): Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-13 14:04:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard' are matched.
+
+2019-03-13 14:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-13 14:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem' is clicked on
+
+2019-03-13 14:04:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary"), issue_sum): Text 'Issue: Cannot create ticket' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-13 14:04:28 - [MESSAGE][PASSED] - Text 'Issue: Cannot create ticket' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary'
+
+2019-03-13 14:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description"), issue_desc): Text 'Cannot created ticket without assigned user' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-13 14:04:29 - [MESSAGE][PASSED] - Text 'Cannot created ticket without assigned user' is set on object 'Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description'
+
+2019-03-13 14:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit")): Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-13 14:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit' is clicked on
+
+2019-03-13 14:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue")): Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-13 14:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue' is clicked on
+
+2019-03-13 14:04:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue"), issue_sum): Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-13 14:04:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue' are matched.
+
+2019-03-13 14:04:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc): verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-03-13 14:05:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-13 14:05:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460717528.png]]
+
+2019-03-13 14:05:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/WebApp - datadriven/20190313_140225/1552460718555.png]]
+
+2019-03-13 14:05:18 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap"), issue_desc) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2019-03-13 14:03:32 - [TEST_CASE][FAILED] - Test Cases/WebApp/Create a new issue - parameterize - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 14:02:28 - [TEST_SUITE][FAILED] - WebApp - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-03-13 14:02:28 - [TEST_SUITE][FAILED] - WebApp - datadriven: Test Cases/WebApp/Create a new issue - parameterize - datadriven FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Create a new issue - parameterize - datadriven.run(Create a new issue - parameterize - datadriven:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552460545991.run(TempTestSuite1552460545991.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap' located by 'By.xpath: //p[(text() = 'It needs to be fixed asap' or . = 'It needs to be fixed asap')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

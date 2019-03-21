@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description>Teste</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>/var/jenkins_home/tools/katalon/katalon -Djava.awt.headless=true --args -projectPath=&quot;demo-project.prj&quot; -runMode=console -reportFolder=&quot;Reports&quot; -reportFileName=&quot;report&quot; -retry=0 -testSuitePath=&quot;Test Suites/WebApp - Test suite collection&quot; -browserType=&quot;Chrome&quot;</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

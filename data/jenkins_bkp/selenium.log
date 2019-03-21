@@ -1,0 +1,26 @@
+Starting Selenium Grid
+[jenkins_home] $ /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /var/jenkins_home/war/WEB-INF/lib/remoting-3.20.jar hudson.remoting.Launcher -cp /var/jenkins_home/plugins/selenium/WEB-INF/lib/selenium-server-standalone-3.12.0.jar:/var/jenkins_home/plugins/selenium/WEB-INF/lib/htmlunit-driver-standalone-2.29.2.jar -connectTo localhost:44987
+Starting Selenium Grid
+channel started
+Feb 13, 2019 4:39:51 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid hub starting with log level INFO
+Feb 13, 2019 4:39:51 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub preparing to start on port 4444
+2019-02-13 16:39:52.695:INFO::pool-1-thread-4 for channel id=0: Logging initialized @5750ms to org.seleniumhq.jetty9.util.log.StdErrLog
+2019-02-13 16:39:52.746:INFO:osjs.Server:pool-1-thread-4 for channel id=0: jetty-9.4.7.v20170914, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2019-02-13 16:39:52.790:INFO:osjs.session:pool-1-thread-4 for channel id=0: DefaultSessionIdManager workerName=node0
+2019-02-13 16:39:52.790:INFO:osjs.session:pool-1-thread-4 for channel id=0: No SessionScavenger set, using defaults
+2019-02-13 16:39:52.791:INFO:osjs.session:pool-1-thread-4 for channel id=0: Scavenging every 660000ms
+2019-02-13 16:39:52.797:INFO:osjsh.ContextHandler:pool-1-thread-4 for channel id=0: Started o.s.j.s.ServletContextHandler@167396aa{/,null,AVAILABLE}
+2019-02-13 16:39:52.810:INFO:osjs.AbstractConnector:pool-1-thread-4 for channel id=0: Started ServerConnector@211a2215{HTTP/1.1,[http/1.1]}{localhost:4444}
+2019-02-13 16:39:52.821:INFO:osjs.Server:pool-1-thread-4 for channel id=0: Started @5876ms
+Feb 13, 2019 4:39:52 PM org.openqa.grid.web.Hub start
+INFO: Selenium Grid hub is up and running
+Feb 13, 2019 4:39:52 PM org.openqa.grid.web.Hub start
+INFO: Nodes should register to http://localhost:4444/grid/register/
+Feb 13, 2019 4:39:52 PM org.openqa.grid.web.Hub start
+INFO: Clients should connect to http://localhost:4444/wd/hub
+Feb 13, 2019 4:39:52 PM hudson.plugins.selenium.HubLauncher call
+OFF: Grid Hub started on port 4444 with args: -maxSession 5 -timeout 300 -browserTimeout 0 -host localhost
+Feb 13, 2019 4:47:01 PM org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+WARNING: Attempt to (de-)serialize anonymous class hudson.plugins.selenium.process.SeleniumJarRunner$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/

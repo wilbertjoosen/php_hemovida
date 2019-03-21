@@ -1,0 +1,33 @@
+update-alternatives 2019-02-14 21:13:59: run with --install /usr/bin/js js /usr/bin/nodejs 200 --slave /usr/share/man/man1/js.1.gz js.1.gz /usr/share/man/man1/nodejs.1.gz
+update-alternatives 2019-02-14 21:13:59: link group js updated to point to /usr/bin/nodejs
+update-alternatives 2019-02-14 22:32:50: run with --quiet --install /usr/bin/nodejs nodejs /usr/bin/node 50 --slave /usr/share/man/man1/nodejs.1.gz nodejs.1.gz /usr/share/man/man1/node.1.gz
+update-alternatives 2019-02-14 22:32:50: link group nodejs updated to point to /usr/bin/node
+update-alternatives 2019-02-14 23:01:10: run with --install /usr/lib/x86_64-linux-gnu/libtxc_dxtn.so libtxc-dxtn-x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0 10
+update-alternatives 2019-02-14 23:01:10: link group libtxc-dxtn-x86_64-linux-gnu updated to point to /usr/lib/x86_64-linux-gnu/libtxc_dxtn_s2tc.so.0
+update-alternatives 2019-02-14 23:02:04: run with --install /usr/bin/js js /usr/bin/rhino 100 --slave /usr/share/man/man1/js.1.gz js.1.gz /usr/share/man/man1/rhino.1.gz
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/rmid rmid /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/rmid 1071 --slave /usr/share/man/man1/rmid.1.gz rmid.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/rmid.1.gz
+update-alternatives 2019-02-14 23:02:09: link group rmid updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/rmid
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/java java /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java 1071 --slave /usr/share/man/man1/java.1.gz java.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/java.1.gz
+update-alternatives 2019-02-14 23:02:09: link group java updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/keytool keytool /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/keytool 1071 --slave /usr/share/man/man1/keytool.1.gz keytool.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/keytool.1.gz
+update-alternatives 2019-02-14 23:02:09: link group keytool updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/keytool
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/pack200 pack200 /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/pack200 1071 --slave /usr/share/man/man1/pack200.1.gz pack200.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/pack200.1.gz
+update-alternatives 2019-02-14 23:02:09: link group pack200 updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/pack200
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/rmiregistry rmiregistry /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/rmiregistry 1071 --slave /usr/share/man/man1/rmiregistry.1.gz rmiregistry.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/rmiregistry.1.gz
+update-alternatives 2019-02-14 23:02:09: link group rmiregistry updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/rmiregistry
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/unpack200 unpack200 /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/unpack200 1071 --slave /usr/share/man/man1/unpack200.1.gz unpack200.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/unpack200.1.gz
+update-alternatives 2019-02-14 23:02:09: link group unpack200 updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/unpack200
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/orbd orbd /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/orbd 1071 --slave /usr/share/man/man1/orbd.1.gz orbd.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/orbd.1.gz
+update-alternatives 2019-02-14 23:02:09: link group orbd updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/orbd
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/servertool servertool /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/servertool 1071 --slave /usr/share/man/man1/servertool.1.gz servertool.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/servertool.1.gz
+update-alternatives 2019-02-14 23:02:09: link group servertool updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/servertool
+update-alternatives 2019-02-14 23:02:09: run with --install /usr/bin/tnameserv tnameserv /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/tnameserv 1071 --slave /usr/share/man/man1/tnameserv.1.gz tnameserv.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/tnameserv.1.gz
+update-alternatives 2019-02-14 23:02:09: link group tnameserv updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/tnameserv
+update-alternatives 2019-02-14 23:02:10: run with --install /usr/bin/jexec jexec /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jexec 1071 --slave /usr/share/binfmts/jar jexec-binfmt /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jar.binfmt
+update-alternatives 2019-02-14 23:02:10: link group jexec updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jexec
+update-alternatives 2019-02-14 23:02:11: run with --install /usr/bin/policytool policytool /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/policytool 1071 --slave /usr/share/man/man1/policytool.1.gz policytool.1.gz /usr/lib/jvm/java-7-openjdk-amd64/jre/man/man1/policytool.1.gz
+update-alternatives 2019-02-14 23:02:11: link group policytool updated to point to /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/policytool
+update-alternatives 2019-02-14 23:02:14: run with --install /usr/bin/mvn mvn /usr/share/maven/bin/mvn 150 --slave /usr/bin/mvnDebug mvnDebug /usr/share/maven/bin/mvnDebug --slave /usr/share/man/man1/mvn.1.gz mvn.1.gz /usr/share/maven/man/mvn.1.gz --slave /usr/share/man/man1/mvnDebug.1.gz mvnDebug.1.gz /usr/share/maven/man/mvnDebug.1.gz
+update-alternatives 2019-02-14 23:02:14: link group mvn updated to point to /usr/share/maven/bin/mvn
+update-alternatives 2019-03-11 18:57:11: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 2019-03-11 18:57:11: link group awk updated to point to /usr/bin/gawk

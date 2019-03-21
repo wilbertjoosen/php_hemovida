@@ -1,0 +1,16 @@
+Started by user unknown or anonymous
+Building in workspace /var/jenkins_home/workspace/Teste Automatizado
+Xvfb starting$ Xvfb :2 -screen 0 1366x768x24 -fbdir /var/jenkins_home/xvfb-68-..fbdir7240455670288298354
+
+ERROR: Xvfb failed to start, consult the lines above for errors
+Recording test results
+_XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+_XSERVTransMakeAllCOTSServerListeners: server already running
+(EE) 
+Fatal server error:
+(EE) Cannot establish any listening sockets - Make sure an X server isn't already running(EE) 
+unlink: No such file or directory
+unlink  failed, Invalid argumentERROR: Step ‘Publish JUnit test result report’ failed: Test reports were found but none of them are new. Did leafNodes run? 
+For example, /var/jenkins_home/workspace/Teste Automatizado/Hemovida/Reports/JUnit_Report.xml is 10 min old
+
+Finished: FAILURE

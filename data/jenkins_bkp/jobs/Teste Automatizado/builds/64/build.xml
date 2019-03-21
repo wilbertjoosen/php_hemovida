@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.xvfb.XvfbEnvironment plugin="xvfb@1.1.3">
+      <frameBufferDir>/var/jenkins_home/xvfb-64-..fbdir5547560055011663779</frameBufferDir>
+      <displayName>2</displayName>
+      <shutdownWithBuild>false</shutdownWithBuild>
+      <cookie>820d027f-bbfc-44b7-96f3-8d49fcbd7397</cookie>
+    </org.jenkinsci.plugins.xvfb.XvfbEnvironment>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>anonymous</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>59</queueId>
+  <timestamp>1549889326477</timestamp>
+  <startTime>1549889326531</startTime>
+  <result>ABORTED</result>
+  <duration>136676</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/Teste Automatizado</workspace>
+  <hudsonVersion>2.121.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

@@ -1,0 +1,19 @@
+commit 298456fe86fcc163d138fbfd89d826385d189c46
+tree 711c1b7feb21501a4f3c9393e518e3ef75589295
+parent 7ab44a0146be4ee21588c67dcc443a7d6506dbd6
+author Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 18:43:27 -0300
+committer Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 18:43:27 -0300
+
+    [DELETE] Removidos arquivos de projeto eclipse
+
+
+
+:100644 100644 ea96da8ec4440926f69688279de3bb923d822ca2 dfd6d7a0d42979201735327190171e781c1eb310 M	.gitignore
+:100644 000000 477bb0c6e8f0bfad474ed132a30cbf28c66ee6f6 0000000000000000000000000000000000000000 D	.project
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.composer.testcase.settings.properties
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.core.webservice.properties
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.execution.properties
+:100644 000000 69b41c5aba3708681eb08664b32a932f57d30aef 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.execution.webui.properties
+:100644 000000 551a7b9328ede437175dd87e8827c48dbc2b162a 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.integration.analytics.properties
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.integration.jira.properties
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	settings/internal/com.kms.katalon.integration.qtest.properties

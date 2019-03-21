@@ -1,0 +1,11 @@
+Started by user [8mha:////4FN88H8RrhTBzIF+lJAjMLBc7u8Svt/xokmPCiLj+FzmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste_Automatizado
+[Teste_Automatizado] $ /bin/sh -xe /tmp/jenkins4655413425041274372.sh
++ /var/jenkins_home/tools/katalon/katalon -Djava.awt.headless=true --args -runMode=console -reportFolder=Reports -reportFileName=report -retry=0 -testSuitePath=Test Suites/{} -browserType=Chrome
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+Missing required argument(s): projectPath.
+Build step 'Execute shell' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MobileApp - Search" time="158" tests="1" failures="0" errors="0">
+   <testsuite name="MobileApp - Search" tests="1" failures="0" errors="0" time="158" timestamp="2019-03-13 11:50:18" hostname="trongbui - 6rwx502.kms.com.vn" id="Test Suites/MobileApp - Search">
+      <properties>
+         <property name="deviceName" value="V20"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/MobileApp - Search/20190313_115005"/>
+         <property name="logFiles" value="/Users/trongbui/katalon/sources/katalon-studio-samples/demo-project/Reports/MobileApp - Search/20190313_115005/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="trongbui - 6rwx502.kms.com.vn"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.9.1"/>
+         <property name="deviceModel" value="null"/>
+         <property name="hostAddress" value="192.168.37.46"/>
+         <property name="deviceManufacturer" value="null"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="V20"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/MobileApp/Search" classname="Test Cases/MobileApp/Search" status="PASSED">
+         <system-out><![CDATA[2019-03-13 11:50:18 - [TEST_CASE][PASSED] - Test Cases/MobileApp/Search: Test Cases/MobileApp/Search
+
+2019-03-13 11:50:19 - [TEST_STEP][PASSED] - startApplication("kobiton-store:28005", true): Started app at: 'kobiton-store:28005'
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['acceptSslCerts', 'true']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['sessionDescription', '']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['platformVersion', '7.0']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['sessionName', 'Automation test session']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['captureSreenShots', 'true']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['deviceOrientation', 'portrait']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-03-13 11:50:19 - [MESSAGE][INFO] - User set preference: ['deviceName', 'V20']
+
+2019-03-13 11:51:38 - [MESSAGE][PASSED] - Started app at: 'kobiton-store:28005'
+
+2019-03-13 11:51:38 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.Button1 - SIGN IN (1)"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.Button1 - SIGN IN (1)'
+
+2019-03-13 11:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:51:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.Button1 - SIGN IN (1)'
+
+2019-03-13 11:51:45 - [TEST_STEP][PASSED] - setText(findTestObject("MobileApp/android.widget.EditText0 - Email AddressPhone Number (2)"), "brian.ducson@gmail.com", 0): Text 'brian.ducson@gmail.com' has been set to element 'Object Repository/MobileApp/android.widget.EditText0 - Email AddressPhone Number (2)'
+
+2019-03-13 11:51:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:51:54 - [MESSAGE][PASSED] - Text 'brian.ducson@gmail.com' has been set to element 'Object Repository/MobileApp/android.widget.EditText0 - Email AddressPhone Number (2)'
+
+2019-03-13 11:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("MobileApp/android.widget.EditText1 - Password (2)"), "@mypassword", 0): Text '@mypassword' has been set to element 'Object Repository/MobileApp/android.widget.EditText1 - Password (2)'
+
+2019-03-13 11:51:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:01 - [MESSAGE][PASSED] - Text '@mypassword' has been set to element 'Object Repository/MobileApp/android.widget.EditText1 - Password (2)'
+
+2019-03-13 11:52:01 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.Button0 - SHOW (2)"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.Button0 - SHOW (2)'
+
+2019-03-13 11:52:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.Button0 - SHOW (2)'
+
+2019-03-13 11:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.Button2 - SIGN IN (1)"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.Button2 - SIGN IN (1)'
+
+2019-03-13 11:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.Button2 - SIGN IN (1)'
+
+2019-03-13 11:52:13 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.ImageView0'
+
+2019-03-13 11:52:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.ImageView0'
+
+2019-03-13 11:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("MobileApp/android.widget.EditText0 - Enter Zone Number"), "123456", 0): Text '123456' has been set to element 'Object Repository/MobileApp/android.widget.EditText0 - Enter Zone Number'
+
+2019-03-13 11:52:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:27 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/MobileApp/android.widget.EditText0 - Enter Zone Number'
+
+2019-03-13 11:52:27 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.ImageView0 (1)"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.ImageView0 (1)'
+
+2019-03-13 11:52:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.ImageView0 (1)'
+
+2019-03-13 11:52:36 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.TextView1 - Done"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.TextView1 - Done'
+
+2019-03-13 11:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.TextView1 - Done'
+
+2019-03-13 11:52:42 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.ImageButton0"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.ImageButton0'
+
+2019-03-13 11:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.ImageButton0'
+
+2019-03-13 11:52:48 - [TEST_STEP][PASSED] - tap(findTestObject("MobileApp/android.widget.TextView2 - 51088"), 0): Tapped on element 'Object Repository/MobileApp/android.widget.TextView2 - 51088'
+
+2019-03-13 11:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-13 11:52:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileApp/android.widget.TextView2 - 51088'
+
+2019-03-13 11:52:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2019-03-13 11:52:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 11:50:18 - [TEST_SUITE][PASSED] - MobileApp - Search: Test Cases/MobileApp/Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,100 @@
+Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste Automatizado
+[Teste Automatizado] $ /bin/sh -xe /tmp/jenkins7821164945249551974.sh
++ /var/jenkins_home/tools/katalon/katalon --args -runMode=console -projectPath=/var/jenkins_home/workspace/Teste Automatizado/Hemovida -reportFolder=Reports -reportFileName=report -retry=0 -testSuitePath=Test Suites/Hemovida -browserType=Chrome
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+Delete folder: bin
+Delete folder: Libs
+Opening project file: /var/jenkins_home/workspace/Teste Automatizado/Hemovida/Hemovida.prj
+[EL Warning]: 2019-02-08 13:00:08.159--Ignoring attribute [lastRun] on class [TestSuiteEntity] as no Property was generated for it.
+Request sent successfully.
+Starting Groovy-Eclipse compiler resolver.  Specified compiler level: unspecified
+166 2.4.7.xx-201611170128-e46 = ACTIVE
+Parsing custom keywords...
+Generating global variables...
+Project 'Hemovida' opened
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190208_130012..........................0/1(0%)
+--------------------------------------------------------------------------------
+
+Request sent successfully.
+2019-02-08 13:00:13.719 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Hemovida
+2019-02-08 13:00:13.747 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = jenkins - 5c213bf4da59
+2019-02-08 13:00:13.748 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Linux 64bit
+2019-02-08 13:00:13.748 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.19.0.2
+2019-02-08 13:00:13.752 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 5.10.1.1
+2019-02-08 13:00:13.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2019-02-08 13:00:13.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2019-02-08 13:00:14.251 DEBUG testcase.Login                           - 1: openBrowser("http://hemovida.desenvolvimento.saude.gov/")
+2019-02-08 13:00:14.551 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ openBrowser("http://hemovida.desenvolvimento.saude.gov/") FAILED.
+Reason:
+java.awt.AWTError: Can't connect to X11 window server using ':99' as the value of the DISPLAY variable.
+	at org.sikuli.api.robot.desktop.AWTDesktop.<clinit>(AWTDesktop.java:26)
+	at org.sikuli.api.robot.desktop.DesktopScreen.getSize(DesktopScreen.java:43)
+	at org.sikuli.api.AbstractScreenRegion.<init>(AbstractScreenRegion.java:19)
+	at org.sikuli.api.DefaultScreenRegion.<init>(DefaultScreenRegion.java:37)
+	at org.sikuli.api.DesktopScreenRegion.<init>(DesktopScreenRegion.java:11)
+	at com.kms.katalon.core.webui.common.ScreenUtil.<init>(ScreenUtil.java:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.<clinit>(WebUIAbstractKeyword.groovy:20)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.getActions(KeywordExecutor.groovy:130)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Login.run(Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549630812470.run(TempTestSuite1549630812470.groovy:36)
+
+2019-02-08 13:00:14.555 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login FAILED.
+Reason:
+java.awt.AWTError: Can't connect to X11 window server using ':99' as the value of the DISPLAY variable.
+	at org.sikuli.api.robot.desktop.AWTDesktop.<clinit>(AWTDesktop.java:26)
+	at org.sikuli.api.robot.desktop.DesktopScreen.getSize(DesktopScreen.java:43)
+	at org.sikuli.api.AbstractScreenRegion.<init>(AbstractScreenRegion.java:19)
+	at org.sikuli.api.DefaultScreenRegion.<init>(DefaultScreenRegion.java:37)
+	at org.sikuli.api.DesktopScreenRegion.<init>(DesktopScreenRegion.java:11)
+	at com.kms.katalon.core.webui.common.ScreenUtil.<init>(ScreenUtil.java:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.<clinit>(WebUIAbstractKeyword.groovy:20)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.getActions(KeywordExecutor.groovy:130)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:49)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Login.run(Login:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549630812470.run(TempTestSuite1549630812470.groovy:36)
+
+2019-02-08 13:00:14.557 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login
+2019-02-08 13:00:14.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2019-02-08 13:00:14.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Hemovida
+2019-02-08 13:00:14.618 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+Copying report to folder /var/jenkins_home/workspace/Teste Automatizado/Hemovida/Reports...
+
+--------------------------------------------------------------------------------
+Test Suites/Hemovida - Chrome - 20190208_130012........................1/1(100%)
+--------------------------------------------------------------------------------
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

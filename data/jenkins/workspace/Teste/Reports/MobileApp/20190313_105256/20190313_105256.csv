@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MobileApp,,,2019-03-13 10:52:58,2019-03-13 10:54:41,1m - 43.196s,FAILED
+,,,,,,
+Test Cases/MobileApp/Log in,,,2019-03-13 10:52:58,2019-03-13 10:54:40,1m - 41.499s,PASSED
+"startApplication(""kobiton-store:28005"", true)",,,2019-03-13 10:52:59,2019-03-13 10:53:59,1m - 0.049s,PASSED
+"tap(findTestObject(""MobileApp/android.widget.Button1 - SIGN IN""), 0)",,,2019-03-13 10:53:59,2019-03-13 10:54:07,8.287s,PASSED
+"setText(findTestObject(""MobileApp/android.widget.EditText0 - Email AddressPhone Number (1)""), ""brian.ducson@gmail.com"", 0)",,,2019-03-13 10:54:07,2019-03-13 10:54:13,6.262s,PASSED
+"setText(findTestObject(""MobileApp/android.widget.EditText1 - Password (1)""), ""@mypassword"", 0)",,,2019-03-13 10:54:13,2019-03-13 10:54:20,6.843s,PASSED
+"tap(findTestObject(""MobileApp/android.widget.Button0 - SHOW (1)""), 0)",,,2019-03-13 10:54:20,2019-03-13 10:54:27,6.833s,PASSED
+"tap(findTestObject(""MobileApp/android.widget.Button2 - SIGN IN""), 0)",,,2019-03-13 10:54:27,2019-03-13 10:54:36,8.795s,PASSED
+delay(3),,,2019-03-13 10:54:36,2019-03-13 10:54:39,3.029s,PASSED
+closeApplication(),,,2019-03-13 10:54:39,2019-03-13 10:54:40,1.087s,PASSED
+,,,,,,
+Test Cases/MobileApp/Search,,,2019-03-13 10:54:40,2019-03-13 10:54:41,1.487s,FAILED
+"startApplication(""kobiton-store:28005"", true)",,,2019-03-13 10:54:40,2019-03-13 10:54:41,1.355s,FAILED

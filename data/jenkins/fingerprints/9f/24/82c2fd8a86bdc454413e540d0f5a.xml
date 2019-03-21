@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-27 12:34:23.168 UTC</timestamp>
+  <md5sum>9f2482c2fd8a86bdc454413e540d0f5a</md5sum>
+  <fileName>Credential id=1bf809e4-0054-4d97-8a33-f8bdcd5cab43 name=wilbert.joosen/******</fileName>
+  <usages>
+    <entry>
+      <string>Merge SVN</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

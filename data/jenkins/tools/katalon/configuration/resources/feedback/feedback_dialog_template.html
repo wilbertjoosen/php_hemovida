@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    #main {
+        position: relative;
+        width: 600px;
+        height: 266px;
+        background-image: url('background.png');
+        background-size: cover;
+    }
+
+    #button-bar {
+        position: absolute;
+        left: 240px;
+        top: 130px;
+    }
+
+    .button {        
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        float: left;
+    }
+
+    #btn-ok {
+        padding: 10px 50px;
+        background-color: #fff;
+        color: #318AE5;
+        font-weight: bold;
+    }
+
+    #btn-ok:hover {
+        background-color: #DE6FB0;
+        border: 1px solid #DE6FB0;
+        color: #fff;
+    }
+
+    #btn-cancel {
+        padding: 10px 40px;
+        margin-left: 15px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    #btn-cancel:hover {
+        background-color: #2B7FE1;
+        border: #2B7FE1;
+        color: #fff;
+    }
+
+    #show-option {
+        position: absolute;
+        color: #fff;
+        font-size: 12px;
+        right: 2px;
+        bottom: 3px;
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+        <div id="button-bar">
+            <button id="btn-ok" class="button">Sure</button>
+            <button id="btn-cancel" class="button">I'm too shy to say</button>
+        </div>
+        <div id="show-option">
+            <input type="checkbox" id="cb-do-not-show">
+            <span>Don't show this again</span>
+        </div>
+    </div>
+
+    </div>
+    <script type="text/javascript">
+        var btnOk = document.getElementById("btn-ok");
+        btnOk.onclick = function() {
+            if (typeof handleOkPressed != "undefined") {
+                handleOkPressed();
+            }
+        };
+
+        var btnCancel = document.getElementById("btn-cancel");
+        btnCancel.onclick = function() {
+            if (typeof handleCancelPressed != "undefined") {
+                handleCancelPressed();
+            }
+        };
+
+        var cbDoNotShow = document.getElementById("cb-do-not-show");
+        cbDoNotShow.onclick = function() {
+            if (typeof handleCbDoNotShowClicked != "undefined") {
+                handleCbDoNotShowClicked(cbDoNotShow.checked);
+            }
+        };
+    </script>
+</body>
+</html>

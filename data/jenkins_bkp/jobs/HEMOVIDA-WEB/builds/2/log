@@ -1,0 +1,18 @@
+Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/HEMOVIDA-WEB
+using credential 75304edc-0cf7-4390-af25-96b6c4743909
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.castgroup.com.br/datasus/hemovida/hemovida.git # timeout=10
+Fetching upstream changes from https://gitlab.castgroup.com.br/datasus/hemovida/hemovida.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://gitlab.castgroup.com.br/datasus/hemovida/hemovida.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 679b589d577502ce7e99cc2cfbc6355d87e75141 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 679b589d577502ce7e99cc2cfbc6355d87e75141
+Commit message: "[FIX] Merge svn - git Movimentar/Descartar Bolsas de Processamento."
+ > git rev-list --no-walk 679b589d577502ce7e99cc2cfbc6355d87e75141 # timeout=10
+Finished: SUCCESS

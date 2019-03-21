@@ -1,0 +1,11 @@
+commit 7ab44a0146be4ee21588c67dcc443a7d6506dbd6
+tree 9cc82e950792d4045e8e53e19b4facc4f9abf73e
+parent 4999a772f6fcecf47780fc9d35d9d404085848cc
+author Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 16:19:59 -0300
+committer Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 16:19:59 -0300
+
+    [UPDATE] Ajuste no gitignore
+
+
+
+:100644 100644 3157321e4de577f03cb6e8bed7ff89d51d111b0b ea96da8ec4440926f69688279de3bb923d822ca2 M	.gitignore

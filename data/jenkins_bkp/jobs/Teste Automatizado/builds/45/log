@@ -1,0 +1,76 @@
+Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste Automatizado
+[Teste Automatizado] $ /bin/sh -xe /tmp/jenkins8061265989857765249.sh
++ /var/jenkins_home/tools/katalon/katalon --args -runMode=console -projectPath=/var/jenkins_home/workspace/Teste Automatizado/AD_Labotario_Externo-Hospital_MaedeDeus.html -reportFolder=Reports -reportFileName=report -retry=0 -testSuitePath=Test Suites/TS_RegressionTest -browserType=Chrome
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+Opening project file: /var/jenkins_home/workspace/Teste Automatizado/AD_Labotario_Externo-Hospital_MaedeDeus.html
+[EL Warning]: 2019-02-08 12:15:33.874--Ignoring attribute [lastRun] on class [TestSuiteEntity] as no Property was generated for it.
+Request sent successfully.
+javax.xml.bind.UnmarshalException
+ - with linked exception:
+[Exception [EclipseLink-25004] (Eclipse Persistence Services - 2.5.0.v20130425-368d603): org.eclipse.persistence.exceptions.XMLMarshalException
+Exception Description: An error occurred unmarshalling the document
+Internal Exception: org.xml.sax.SAXParseException; systemId: file:/var/jenkins_home/workspace/Teste%20Automatizado/AD_Labotario_Externo-Hospital_MaedeDeus.html; lineNumber: 2; columnNumber: 58; The system identifier must begin with either a single or double quote character.]
+	at org.eclipse.persistence.jaxb.JAXBUnmarshaller.handleXMLMarshalException(JAXBUnmarshaller.java:980)
+	at org.eclipse.persistence.jaxb.JAXBUnmarshaller.unmarshal(JAXBUnmarshaller.java:126)
+	at com.kms.katalon.dal.fileservice.EntityService.loadEntityFromFile(EntityService.java:189)
+	at com.kms.katalon.dal.fileservice.EntityService.getEntityByPath(EntityService.java:165)
+	at com.kms.katalon.dal.fileservice.manager.ProjectFileServiceManager.openProjectWithoutClasspath(ProjectFileServiceManager.java:88)
+	at com.kms.katalon.dal.fileservice.manager.ProjectFileServiceManager.openProject(ProjectFileServiceManager.java:77)
+	at com.kms.katalon.dal.fileservice.dataprovider.ProjectFileServiceDataProvider.openProject(ProjectFileServiceDataProvider.java:24)
+	at com.kms.katalon.controller.ProjectController.openProject(ProjectController.java:98)
+	at com.kms.katalon.execution.console.ConsoleMain.getProject(ConsoleMain.java:258)
+	at com.kms.katalon.execution.console.ConsoleMain.findProject(ConsoleMain.java:163)
+	at com.kms.katalon.execution.console.ConsoleMain.launch(ConsoleMain.java:90)
+	at com.kms.katalon.console.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.start(Application.java:59)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: Exception [EclipseLink-25004] (Eclipse Persistence Services - 2.5.0.v20130425-368d603): org.eclipse.persistence.exceptions.XMLMarshalException
+Exception Description: An error occurred unmarshalling the document
+Internal Exception: org.xml.sax.SAXParseException; systemId: file:/var/jenkins_home/workspace/Teste%20Automatizado/AD_Labotario_Externo-Hospital_MaedeDeus.html; lineNumber: 2; columnNumber: 58; The system identifier must begin with either a single or double quote character.
+	at org.eclipse.persistence.exceptions.XMLMarshalException.unmarshalException(XMLMarshalException.java:113)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.convertSAXException(SAXUnmarshaller.java:999)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.unmarshal(SAXUnmarshaller.java:903)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.unmarshal(SAXUnmarshaller.java:388)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.unmarshal(SAXUnmarshaller.java:366)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.unmarshal(SAXUnmarshaller.java:323)
+	at org.eclipse.persistence.oxm.XMLUnmarshaller.unmarshal(XMLUnmarshaller.java:367)
+	at org.eclipse.persistence.jaxb.JAXBUnmarshaller.unmarshal(JAXBUnmarshaller.java:123)
+	... 25 more
+Caused by: org.xml.sax.SAXParseException; systemId: file:/var/jenkins_home/workspace/Teste%20Automatizado/AD_Labotario_Externo-Hospital_MaedeDeus.html; lineNumber: 2; columnNumber: 58; The system identifier must begin with either a single or double quote character.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanExternalID(XMLScanner.java:1089)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.scanDoctypeDecl(XMLDocumentScannerImpl.java:642)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:924)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.eclipse.persistence.internal.oxm.record.XMLReader.parse(XMLReader.java:221)
+	at org.eclipse.persistence.internal.oxm.record.SAXUnmarshaller.unmarshal(SAXUnmarshaller.java:895)
+	... 30 more
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,73 @@
+Started by user [8mha:////4FN88H8RrhTBzIF+lJAjMLBc7u8Svt/xokmPCiLj+FzmAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste_Automatizado
+[Teste_Automatizado] $ /bin/sh -xe /tmp/jenkins6569975878052046253.sh
++ /var/jenkins_home/tools/katalon/katalon -Djava.awt.headless=true --args -runMode=console -projectPath=Hemovida.prj -reportFolder=Reports -reportFileName=report -retry=0 -testSuitePath=Test Suites/{} -browserType=Chrome
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+Wed Mar 20 19:50:07 UTC 2019
+Unable to delete lib folders
+java.lang.NullPointerException
+	at com.kms.katalon.execution.console.ConsoleMain.deleteLibFolders(ConsoleMain.java:271)
+	at com.kms.katalon.execution.console.ConsoleMain.getProject(ConsoleMain.java:257)
+	at com.kms.katalon.execution.console.ConsoleMain.findProject(ConsoleMain.java:163)
+	at com.kms.katalon.execution.console.ConsoleMain.launch(ConsoleMain.java:90)
+	at com.kms.katalon.console.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.start(Application.java:59)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+
+Opening project file: Hemovida.prj
+Request sent successfully.
+[EL Warning]: 2019-03-20 19:50:07.781--Ignoring attribute [lastRun] on class [TestSuiteEntity] as no Property was generated for it.
+Starting Groovy-Eclipse compiler resolver.  Specified compiler level: unspecified
+166 2.4.7.xx-201611170128-e46 = ACTIVE
+org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:85)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:73)
+	at org.eclipse.core.runtime.Path.initialize(Path.java:641)
+	at org.eclipse.core.runtime.Path.<init>(Path.java:238)
+	at org.eclipse.core.runtime.Path.<init>(Path.java:186)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:541)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:149)
+	at com.kms.katalon.groovy.util.GroovyUtil.openGroovyProject(GroovyUtil.java:647)
+	at com.kms.katalon.dal.fileservice.manager.ProjectFileServiceManager.openProject(ProjectFileServiceManager.java:79)
+	at com.kms.katalon.dal.fileservice.dataprovider.ProjectFileServiceDataProvider.openProject(ProjectFileServiceDataProvider.java:24)
+	at com.kms.katalon.controller.ProjectController.openProject(ProjectController.java:98)
+	at com.kms.katalon.execution.console.ConsoleMain.getProject(ConsoleMain.java:258)
+	at com.kms.katalon.execution.console.ConsoleMain.findProject(ConsoleMain.java:163)
+	at com.kms.katalon.execution.console.ConsoleMain.launch(ConsoleMain.java:90)
+	at com.kms.katalon.console.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.runConsole(Application.java:76)
+	at com.kms.katalon.core.application.Application.start(Application.java:59)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+Build step 'Execute shell' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE

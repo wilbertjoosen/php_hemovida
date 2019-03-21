@@ -1,0 +1,11 @@
+commit bc9aef8be5bfbc0b32599faf9e524e1c9899a5f8
+tree 35df81504bd9ad84de6702e09e493b1d92a4b659
+parent 298456fe86fcc163d138fbfd89d826385d189c46
+author Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 18:53:27 -0300
+committer Wilbert de Almeida Joosen <wilbert.joosen@castgroup.com.br> 2019-03-20 18:53:27 -0300
+
+    [DELETE] Removidos arquivos de projeto eclipse
+
+
+
+:100644 100644 dfd6d7a0d42979201735327190171e781c1eb310 9b46deeedc58f2f0b379727479d381194fc119a3 M	.gitignore

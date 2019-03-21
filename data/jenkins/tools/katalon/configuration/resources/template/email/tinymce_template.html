@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <script src="./tinymce/tinymce.min.js"></script>
+	    <script type="text/javascript">
+	        tinymce.init({
+	            selector: '#myTextArea',
+	            theme: 'modern',
+	            branding: false,
+	            statusbar: false,
+	            setup: function (editor) {
+	                editor.on('init', function (e) {
+	                    editor.execCommand('mceFullScreen');
+	                });
+	            },
+	            menubar: false,
+	            plugins: [
+	                'advlist autolink lists link image charmap preview hr anchor pagebreak',
+	                'searchreplace code fullscreen',
+	                'insertdatetime media nonbreaking table contextmenu directionality',
+	                'paste textcolor colorpicker textpattern imagetools toc fullpage'
+	            ],
+	            toolbar1: 'styleselect bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media | forecolor backcolor',
+	            fullpage_default_encoding: "UTF-8"
+	        });
+	
+	    </script>
+	</head>
+	
+	<body style="margin:2px; padding:0;">
+	    <textarea id="myTextArea">${htmlTemplate}</textarea>
+	</body>
+</html>

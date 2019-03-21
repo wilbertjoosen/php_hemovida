@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebApp - datadriven,Chrome 72.0.3626.121,,2019-03-13 14:48:14,2019-03-13 14:49:22,1m - 7.711s,PASSED
+,,,,,,
+Test Cases/WebApp/Create a new issue - parameterize - datadriven,Chrome 72.0.3626.121,"Summary: This is the 1st issue
+Description: Should be handled asap",2019-03-13 14:48:15,2019-03-13 14:48:46,31.166s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-13 14:48:15,2019-03-13 14:48:17,2.229s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-13 14:48:17,2019-03-13 14:48:18,0.618s,PASSED
+"navigateToUrl(""https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"")",Chrome 72.0.3626.121,,2019-03-13 14:48:18,2019-03-13 14:48:22,3.711s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Chrome 72.0.3626.121,,2019-03-13 14:48:22,2019-03-13 14:48:22,0.472s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue""))",Chrome 72.0.3626.121,,2019-03-13 14:48:22,2019-03-13 14:48:22,0.144s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Chrome 72.0.3626.121,,2019-03-13 14:48:22,2019-03-13 14:48:25,2.914s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:25,2019-03-13 14:48:25,0.100s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd""), encrypted_password)",Chrome 72.0.3626.121,,2019-03-13 14:48:25,2019-03-13 14:48:26,0.252s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:26,2019-03-13 14:48:27,1.108s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:27,2019-03-13 14:48:29,2.833s,PASSED
+"scrollToElement(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), 0)",Chrome 72.0.3626.121,,2019-03-13 14:48:29,2019-03-13 14:48:37,7.520s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), homepage_title)",Chrome 72.0.3626.121,,2019-03-13 14:48:37,2019-03-13 14:48:37,0.049s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem""))",Chrome 72.0.3626.121,,2019-03-13 14:48:37,2019-03-13 14:48:37,0.199s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary""), issue_sum)",Chrome 72.0.3626.121,,2019-03-13 14:48:37,2019-03-13 14:48:39,1.937s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description""), issue_desc)",Chrome 72.0.3626.121,,2019-03-13 14:48:39,2019-03-13 14:48:40,0.616s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit""))",Chrome 72.0.3626.121,,2019-03-13 14:48:40,2019-03-13 14:48:40,0.114s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue""))",Chrome 72.0.3626.121,,2019-03-13 14:48:40,2019-03-13 14:48:46,5.692s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue""), issue_sum)",Chrome 72.0.3626.121,,2019-03-13 14:48:46,2019-03-13 14:48:46,0.041s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap - params"", [""issue_desc"":issue_desc]), issue_desc)",Chrome 72.0.3626.121,,2019-03-13 14:48:46,2019-03-13 14:48:46,0.036s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-13 14:48:46,2019-03-13 14:48:46,0.175s,PASSED
+,,,,,,
+Test Cases/WebApp/Create a new issue - parameterize - datadriven,Chrome 72.0.3626.121,"Summary: This is the 1st issue
+Description: Should be handled asap",2019-03-13 14:48:46,2019-03-13 14:49:22,36.250s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-13 14:48:46,2019-03-13 14:48:47,1.280s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-13 14:48:47,2019-03-13 14:48:47,0.221s,PASSED
+"navigateToUrl(""https://id.atlassian.com/login?continue=https%3A%2F%2Fkatalon.atlassian.net%2Flogin%3FredirectCount%3D1"")",Chrome 72.0.3626.121,,2019-03-13 14:48:47,2019-03-13 14:48:51,3.914s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Chrome 72.0.3626.121,,2019-03-13 14:48:51,2019-03-13 14:48:52,0.310s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/span_Continue""))",Chrome 72.0.3626.121,,2019-03-13 14:48:52,2019-03-13 14:48:52,0.321s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Log in to continue - Log in with Atlassian account/input_Email_username""), username)",Chrome 72.0.3626.121,,2019-03-13 14:48:52,2019-03-13 14:48:55,3.066s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Sign in_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:55,2019-03-13 14:48:55,0.085s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Enter password_passwd""), encrypted_password)",Chrome 72.0.3626.121,,2019-03-13 14:48:55,2019-03-13 14:48:55,0.140s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_Forgot my password_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:55,2019-03-13 14:48:56,1.126s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9""))",Chrome 72.0.3626.121,,2019-03-13 14:48:56,2019-03-13 14:48:59,2.823s,PASSED
+"scrollToElement(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), 0)",Chrome 72.0.3626.121,,2019-03-13 14:48:59,2019-03-13 14:49:09,9.410s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/h1_System dashboard""), homepage_title)",Chrome 72.0.3626.121,,2019-03-13 14:49:09,2019-03-13 14:49:09,0.050s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/button_Dashboards_createGlobalItem""))",Chrome 72.0.3626.121,,2019-03-13 14:49:09,2019-03-13 14:49:09,0.260s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Required_summary""), issue_sum)",Chrome 72.0.3626.121,,2019-03-13 14:49:09,2019-03-13 14:49:12,2.885s,PASSED
+"setText(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/textarea_Lock  Unlock_description""), issue_desc)",Chrome 72.0.3626.121,,2019-03-13 14:49:12,2019-03-13 14:49:13,0.847s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_Create issue - Jira/input_Create another_Edit""))",Chrome 72.0.3626.121,,2019-03-13 14:49:13,2019-03-13 14:49:13,0.255s,PASSED
+"click(findTestObject(""Object Repository/WebApp/Page_System dashboard - Jira/a_PAR-5 - This is my issue""))",Chrome 72.0.3626.121,,2019-03-13 14:49:13,2019-03-13 14:49:22,9.009s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/h1_This is my issue""), issue_sum)",Chrome 72.0.3626.121,,2019-03-13 14:49:22,2019-03-13 14:49:22,0.047s,PASSED
+"verifyElementText(findTestObject(""Object Repository/WebApp/Page_PAR-5 This is my issue - Jira/p_It needs to be fixed asap - params"", [""issue_desc"":issue_desc]), issue_desc)",Chrome 72.0.3626.121,,2019-03-13 14:49:22,2019-03-13 14:49:22,0.029s,PASSED
+closeBrowser(),Chrome 72.0.3626.121,,2019-03-13 14:49:22,2019-03-13 14:49:22,0.148s,PASSED

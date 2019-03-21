@@ -20,8 +20,23 @@ services:
     ports:
       - "80:80"
     networks:
-      - app
-
+      - app  
+  jenkins:
+    image: wilbertjoosen/php_hemovida_jenkins:latest
+    #build:
+    #    context: jenkins
+    #    dockerfile: "Dockerfile"
+    container_name: jenkins
+    ports:
+      - '8080:8080'
+      - '8443:8443'
+    volumes:
+      - ./data/jenkins_2:/var/jenkins_home
+    networks:
+      - app  
+    extra_hosts:
+      - "hemovida.local.saude.gov.br:172.19.0.6"
+      - "hemovida.desenvolvimento.saude.gov:10.1.1.144"
   php:
     image: wilbertjoosen/docker_hemovida_php:latest
     container_name: php
@@ -35,10 +50,9 @@ services:
       - workspace
     expose:
       - "9000"
-    ports:
-      - "9001:9001"
     extra_hosts:
         - "dockerhost:${DOCKER_HOST_IP}"
+        - "srvoradf20-scan.saude.gov:172.25.61.150"
     networks:
       - app
   workspace:
@@ -47,8 +61,6 @@ services:
     volumes_from:
       - applications
     tty: true
-    ports:
-      - "4200:4200"
     networks:
       - app
 networks:

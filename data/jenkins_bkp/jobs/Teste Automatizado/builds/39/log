@@ -1,0 +1,7 @@
+Started by user [8mha:////4JMcgApIUFlX1kidF0hslYnk0yH9rmyujIbXfZ/hgItPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/Teste Automatizado
+[Teste Automatizado] $ /bin/sh -xe /tmp/jenkins6548621717574022758.sh
++ /var/jenkins_home/katalon/katalon --args -runMode=console -projectPath=/var/jenkins_home/workspace/Teste\ Automatizado/ -reportFolder=Reports -reportFileName=report -retry=0 -testSuitePath=Test Suites/TS_RegressionTest -browserType=Chrome
+/tmp/jenkins6548621717574022758.sh: 2: /tmp/jenkins6548621717574022758.sh: /var/jenkins_home/katalon/katalon: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
