@@ -50,8 +50,7 @@ services:
     networks:
       - app  
     extra_hosts:
-      - "hemovida.local.saude.gov.br:172.19.0.6"
-      - "hemovida.desenvolvimento.saude.gov:10.1.1.144"
+      - "srvoradf20-scan.saude.gov:172.25.61.150"
   php:
     image: wilbertjoosen/docker_hemovida_php:latest
     container_name: php
