@@ -22,7 +22,7 @@ services:
     networks:
       - app  
   jenkins:
-    image: wilbertjoosen/php_hemovida_jenkins:latest
+    image: wilbertjoosen/docker_hemovida_jenkins:latest
     #build:
     #    context: jenkins
     #    dockerfile: "Dockerfile"
@@ -32,6 +32,21 @@ services:
       - '8443:8443'
     volumes:
       - ./data/jenkins:/var/jenkins_home
+    networks:
+      - app  
+    extra_hosts:
+      - "hemovida.local.saude.gov.br:172.19.0.6"
+      - "hemovida.desenvolvimento.saude.gov:10.1.1.144"
+  jboss-64:
+    image: kengsarun/jboss-eap-6
+    container_name: jboss-64
+    ports:
+      - '8081:8080'
+      - '9990:9990'
+    volumes:
+      - ./data/jboss-64/deployments:/opt/jboss/jboss-eap/standalone/deployments/
+      - ./data/jboss-64/configuration:/opt/jboss/jboss-eap/standalone/configuration/
+      - ./data/jboss-64/modules:/opt/jboss/jboss-eap/modules/
     networks:
       - app  
     extra_hosts:
