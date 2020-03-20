@@ -67,6 +67,7 @@ services:
     extra_hosts:
         - "dockerhost:${DOCKER_HOST_IP}"
         - "srvoradf20-scan.saude.gov:172.25.61.150"
+        - "scpaweb-ws-homologacao.saude.gov.br:189.28.129.73"
     networks:
       - app
   workspace:
